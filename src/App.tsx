@@ -12,6 +12,14 @@ import { UserDetails } from './type'
 import { AdminDetails } from './type'
 import UserProfile from './Components/useState/UserProfile'
 import TodoList from './Components/useState/TodoList'
+import Form from './Components/useRef/Form'
+import FocusInput from './Components/useRef/FocusInput'
+import ContactForm from './Components/useRef/ContactForm'
+import EventHandling from './Components/useRef/EventHandling'
+import Sender from './Components/useContext/Sender'
+import CounterReciever from './Components/useContext/CounterReciever'
+import Test from './Components/useReducer/Test'
+import CounterX from './Components/useReducer/CounterX'
 
 
 const App = () => {
@@ -50,8 +58,21 @@ const Admin : AdminDetails = {
 
       <Counter/>
       <UserProfile/>
-      */}
       <TodoList/>
+
+      <Form/>
+      <FocusInput/>
+      <ContactForm/>
+      <EventHandling/>
+
+      <Sender>
+          <CounterReciever/>
+      </Sender>
+      <Test/>
+      */}
+
+      <CounterX/>
+
 
         
     </div>
