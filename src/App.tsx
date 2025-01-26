@@ -20,6 +20,7 @@ import Sender from './Components/useContext/Sender'
 import CounterReciever from './Components/useContext/CounterReciever'
 import Test from './Components/useReducer/Test'
 import CounterX from './Components/useReducer/CounterX'
+import FormX from './Components/useForm/FormX'
 
 
 const App = () => {
@@ -69,9 +70,11 @@ const Admin : AdminDetails = {
           <CounterReciever/>
       </Sender>
       <Test/>
-      */}
 
       <CounterX/>
+      */}
+
+      <FormX/>
 
 
         
